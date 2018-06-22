@@ -1,0 +1,1 @@
+for full tutorial see https://testified.github.io/soavirt-reversestringtool/

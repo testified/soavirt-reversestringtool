@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.testified.soatest.tool</groupId>
+  <artifactId>reversestringtool</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>reversestringtool</name>
+  <description>A simple tool to reverse a string</description>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.parasoft.soavirt</groupId>
+      <artifactId>com.parasoft.api</artifactId>
+      <version>9.10.5</version> <!--this should match the version of soavirt you are using -->
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <id>ParasoftMavenPublic</id>
+      <name>Parasoft Public Repository</name>
+      <url>http://build.parasoft.com/maven/</url>
+    </repository>
+  </repositories>
+</project>

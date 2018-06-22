@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="urn:ocm/parasoft/extensibility-framework/v1/extension"
+  type="tool" name='Reverse String Tool' description='Tool to reverse any give input string.'>
+  <class>com.testified.soavirt.tool.ReverseStringTool</class>
+  <tool xmlns="http://schemas.parasoft.com/extensibility-framework/v1/tool">
+    <outputs>
+      <output key="response" name="Modified Response" />
+    </outputs>
+  </tool>
+  <form xmlns="urn:com/parasoft/extensibility-framework/gui">
+    <section label="Main Settings">
+      <field id="stringtoreverse" label="Reverse me:" type="String" />
+    </section>
+  </form>
+</extension>
