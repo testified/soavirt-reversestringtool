@@ -7,7 +7,7 @@
 :docinfo1:
 :docinfo-footer1:
 :soa-version: 9.10.5
-:soadocs-version: SOA9105
+:soadocs-version: SOAVIRT9105
 :source-highlighter: coderay
 :experimental:
 :linkattrs:
@@ -28,7 +28,7 @@ endif::[]
 
 The goal is to create and build a simple custom extension (jar file) for Parasoft SOAtest. This guide will outline the basic steps needed to get a bare bones custom extension built and ready for use in SOAtest.
 
-For more information visit the Parasoft SOAtest User guide (see Using Custom Transports, Message Formats, and Tools): https://docs.parasoft.com/x/n9vAAQ[Parasoft SOAtest docs]
+For more information visit the Parasoft SOAtest User guide (see Using Custom Transports, Message Formats, and Tools): https://docs.parasoft.com/display/{soadocs-version}/Using+Custom+Transports%2C+Message+Formats%2C+and+Tools+1[Parasoft SOAtest docs]
 
 === What you need
 
@@ -272,7 +272,8 @@ TIP: Multiple extensions can be bundled together (e.g. you may want to bundle a 
 * The `<tool>` element defines the settings of the custom tool and has many additional (optional) attributes, but for the sake of simplicity only an output attribute is included, which will be used when we generate the reversed string. 
 * The `<form>` element defines the UI of the tool. We will add a standard section (Main Settings) in the UI, and define a single field (id = stringtoreverse) with a label (label = Reverse me:) and a normal field (type = string). The type can be set to a string, xpath, or password (value is obfuscated and encrypted when saved).
 
-NOTE: More detailed information can be found in the Parasoft SOAtest documentation: https://docs.parasoft.com/display/{soadocs-version}/Adding+a+Custom+Tool#AddingaCustomTool-Definingparasoft-extension.xmlforaCustomTool[Defining parasoft-extension.xml]
+NOTE: More detailed information can be found in the Parasoft SOAtest documentation: 
+https://docs.parasoft.com/display/{soadocs-version}/Adding+a+Custom+Tool#AddingaCustomTool-Definingparasoft-extension.xmlforaCustomTool[Defining parasoft-extension.xml]
 
 === Update metadata
 
